@@ -38,6 +38,26 @@ cpp_tutorial/
 ```
 cpp_tutorial/
 ├─ cpp_tutorial.sln
+├─ cpp_tutorial/
+│  ├─ examples/
+│  │  ├─ example_reference.cpp
+│  │  └─ example_pointer.cpp
+│  ├─ cpp_tutorial.vcxproj
+│  ├─ main.cpp
+│  ├─ runner.h
+│  ├─ runner.cpp
+│  ├─ circle.h
+│  └─ circle.cpp
+├─ .gitattributes
+├─ .gitignore
+└─ README.md
+```
+
+필요에 따라 다음과 같이 학습 영역별로 프로젝트를 확장할 수 있습니다:
+
+```
+cpp_tutorial/
+├─ cpp_tutorial.sln
 ├─ 01_basics/
 │  ├─ basics.vcxproj
 │  └─ main.cpp
