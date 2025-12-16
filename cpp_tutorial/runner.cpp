@@ -8,6 +8,9 @@ void RunExample(int which) {
 	case RUN_REFERENCE:
 		RunReferenceExample();
 		break;
+	case RUN_RETURN:
+		RunReturnExample();
+		break;
 	default:
 		cout << "No example selected." << endl;
 		break;

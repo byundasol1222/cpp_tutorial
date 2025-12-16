@@ -27,12 +27,21 @@
     <ClCompile Include="runner.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="circle_utils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\example_return.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circle.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="runner.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_utils.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

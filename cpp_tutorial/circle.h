@@ -3,10 +3,15 @@
 using namespace std;
 
 class Circle {
+private:
 	int radius;
 public:
-	Circle() { radius = 1; }
-	Circle(int radius) { this->radius = radius; }
+	Circle();
+	Circle(int radius);
+	~Circle();
+	int getRadius();
+	//int getRadius() const;
 	void setRadius(int radius);
 	double getArea();
+	void print();
 };
