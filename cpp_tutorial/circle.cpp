@@ -23,15 +23,10 @@ Circle::~Circle() {
 	cout << "destructor executed radius = " << radius << endl;
 }
 
-int Circle::getRadius() { 
-	return radius; 
-	//return *pRadius;
+int Circle::getRadius() const { 
+	return radius;
+	//return *pRadius; // Check required
 }
-
-// Check required
-//int Circle::getRadius() const { 
-//	return radius;
-//}
 
 void Circle::setRadius(int radius) { 
 	this->radius = radius;

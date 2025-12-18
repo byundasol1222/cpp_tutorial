@@ -13,8 +13,7 @@ public:
 	Circle();
 	Circle(int radius); 
 	~Circle();
-	int getRadius();
-	//int getRadius() const; // Check required
+	int getRadius() const;
 	void setRadius(int radius);
 	double getArea();
 	void print();

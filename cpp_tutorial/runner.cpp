@@ -26,6 +26,12 @@ void RunExample(int which) {
 	case RUN_OBJECT_POINTER:
 		RunObjectPointerExample();
 		break;
+	case RUN_STRING:
+		RunStringExample();
+		break;
+	case RUN_CONST:
+		RunConstExample();
+		break;
 	default:
 		cout << "No example selected." << endl;
 		break;

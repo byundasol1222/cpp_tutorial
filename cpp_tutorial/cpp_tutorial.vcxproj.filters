@@ -48,6 +48,12 @@
     <ClCompile Include="examples\06_01_object_pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="examples\06_03_string.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\06_03_const.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circle.h">

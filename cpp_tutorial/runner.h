@@ -7,6 +7,8 @@
 #define RUN_SMART_POINTER 5
 #define RUN_DYNAMIC_OBJECT 6
 #define RUN_OBJECT_POINTER 7
+#define RUN_STRING 8
+#define RUN_CONST 9
 
 void RunExample(int which);
 void RunReferenceExample();
@@ -16,3 +18,5 @@ void RunDynamicMemoryExample();
 void RunSmartPointerExample();
 void RunDynamicObjectExample();
 void RunObjectPointerExample();
+void RunStringExample();
+void RunConstExample();
