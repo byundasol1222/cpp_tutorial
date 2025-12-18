@@ -11,6 +11,21 @@ void RunExample(int which) {
 	case RUN_RETURN:
 		RunReturnExample();
 		break;
+	case RUN_COPY:
+		RunCopyExample();
+		break;
+	case RUN_DYNAMIC_MEMORY:
+		RunDynamicMemoryExample();
+		break;
+	case RUN_SMART_POINTER:
+		RunSmartPointerExample();
+		break;
+	case RUN_DYNAMIC_OBJECT:
+		RunDynamicObjectExample();
+		break;
+	case RUN_OBJECT_POINTER:
+		RunObjectPointerExample();
+		break;
 	default:
 		cout << "No example selected." << endl;
 		break;

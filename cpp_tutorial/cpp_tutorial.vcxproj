@@ -129,8 +129,13 @@
   <ItemGroup>
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="circle_utils.cpp" />
-    <ClCompile Include="examples\example_reference.cpp" />
-    <ClCompile Include="examples\example_return.cpp" />
+    <ClCompile Include="examples\06_01_dynamic_memory.cpp" />
+    <ClCompile Include="examples\06_01_dynamic_object.cpp" />
+    <ClCompile Include="examples\06_01_object_pointer.cpp" />
+    <ClCompile Include="examples\06_01_smart_pointer.cpp" />
+    <ClCompile Include="examples\07_02_copy.cpp" />
+    <ClCompile Include="examples\07_01_reference.cpp" />
+    <ClCompile Include="examples\07_01_return.cpp" />
     <ClCompile Include="runner.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
