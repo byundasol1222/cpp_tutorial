@@ -54,6 +54,9 @@
     <ClCompile Include="examples\06_03_const.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="examples\07_03_static.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circle.h">

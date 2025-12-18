@@ -138,6 +138,7 @@
     <ClCompile Include="examples\07_02_copy.cpp" />
     <ClCompile Include="examples\07_01_reference.cpp" />
     <ClCompile Include="examples\07_01_return.cpp" />
+    <ClCompile Include="examples\07_03_static.cpp" />
     <ClCompile Include="runner.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

@@ -9,6 +9,7 @@
 #define RUN_OBJECT_POINTER 7
 #define RUN_STRING 8
 #define RUN_CONST 9
+#define RUN_STATIC 10
 
 void RunExample(int which);
 void RunReferenceExample();
@@ -20,3 +21,4 @@ void RunDynamicObjectExample();
 void RunObjectPointerExample();
 void RunStringExample();
 void RunConstExample();
+void RunStaticExample();

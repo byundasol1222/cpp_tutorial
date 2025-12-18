@@ -32,6 +32,9 @@ void RunExample(int which) {
 	case RUN_CONST:
 		RunConstExample();
 		break;
+	case RUN_STATIC:
+		RunStaticExample();
+		break;
 	default:
 		cout << "No example selected." << endl;
 		break;
